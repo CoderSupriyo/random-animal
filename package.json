@@ -1,0 +1,31 @@
+{
+  "name": "random-animal",
+  "version": "1.0.0",
+  "description": "Displaying random animal pictures using APIs which are public.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderSupriyo/random-animal.git"
+  },
+  "keywords": [
+    "express",
+    "javascript",
+    "random",
+    "animals",
+    "api"
+  ],
+  "author": "Supriyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderSupriyo/random-animal/issues"
+  },
+  "homepage": "https://github.com/CoderSupriyo/random-animal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "pm2": "^4.4.0"
+  }
+}
