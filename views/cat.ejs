@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Cat 🐱</title>
+    <style type="text/css">
+        body{
+            margin: 20px auto;
+            width: 500px;
+            padding: 10px;
+            font-family:  sans-serif;
+            background: #545454;
+            color: white;
+            text-align: center;
+        }
+        img {
+            border: 2px solid white;
+        }
+        a {
+            text-decoration: underline;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend><b>Random Cat </b>🐱</legend>
+        <br>
+        <!--Image-->
+        <img src="<%= imgURL %>" alt="<%= imgURL %>" width="200">
+        <br>
+        <!--Reload button-->
+        <button onclick="location.reload();">Reload</button>
+        <br>
+        <!--Credits-->
+        <p>Made by <a href="https://coder-supriyo.web.app/">Supriyo</a> with 💙</p>
+        <p>Powered by <a href="https://api.thecatapi.com/">https://api.thecatapi.com/</a></p>
+    </fieldset>
+</body>
+
+</html>
