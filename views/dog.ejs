@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dogs 🐶</title>
+    <style type="text/css">
+        body{
+            margin: 20px auto;
+            width: 500px;
+            padding: 10px;
+            font-family:  sans-serif;
+            background: #545454;
+            color: white;
+            text-align: center;
+        }
+        img {
+            border: 2px solid white;
+        }
+        a {
+            text-decoration: underline;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend><b>Random Dog </b>🐶</legend>
+        <br>
+        <!--Image-->
+        <img src="<%= imgURL %>" alt="<%= name %>" width="200">
+        <!--Breed name-->
+        <h5><b>Breed Name:</b> <%= name %></h5>
+        <br>
+        <!--Reload button-->
+        <button onclick="location.reload();">Reload</button>
+        <br>
+        <!--Credits-->
+        <p>Made by <a href="https://coder-supriyo.web.app/">Supriyo</a> with 💙</p>
+        <p>Powered by <a href="https://dog.ceo/">https://dog.ceo/</a></p>
+    </fieldset>
+</body>
+
+</html>
