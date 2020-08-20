@@ -12,3 +12,6 @@
 ### ▶️ Frontned:
 - Embedded JavaScript (HTML template engine)
 - Custom HTML & CSS 
+
+# Contributor
+<a href="https://discord.gg/JahbJww">https://img.shields.io/badge/Discord-Supriyo%232199-blue</a>
