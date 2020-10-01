@@ -6,7 +6,7 @@ const cat = require('./routes/cat');
 const dog = require('./routes/dog');
 const fox = require('./routes/fox');
 
-// Initialise express app.
+// Initialize express app.
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3333;
